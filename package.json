@@ -1,0 +1,27 @@
+{
+  "name": "whatsapp-boty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.32",
+    "uuid": "^8.3.1",
+    "venom-bot": "^2.2.2"
+  },
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "build": "tsc",
+    "prod": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorwfaoro/whatsapp-boty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorwfaoro/whatsapp-boty/issues"
+  },
+  "homepage": "https://github.com/igorwfaoro/whatsapp-boty#readme"
+}
